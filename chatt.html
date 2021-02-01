@@ -1,0 +1,206 @@
+<!DOCTYPE html 
+<html>
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "d5b75ac4-e96a-485b-85f1-e99b1a60fd83", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "f94f9dea-578c-4ccf-881e-b8c6715071d6", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Technology</title>
+	<style type="text/css">
+
+		/* Layout */
+		body {
+			min-width: 630px;
+		}
+
+		#container {
+			padding-left: 200px;
+			padding-right: 190px;
+		}
+		
+		#container .column {
+			position: relative;
+			float: left;
+		}
+		
+		#center {
+			padding: 10px 20px;
+			width: 100%;
+		}
+		
+		#left {
+			width: 180px;
+			padding: 0 10px;
+			right: 240px;
+			margin-left: -100%;
+		}
+		
+		#right {
+			width: 130px;
+			padding: 0 10px;
+			margin-right: -100%;
+		}
+		
+		#footer {
+			clear: both;
+		}
+		
+		/* IE hack */
+		* html #left {
+			left: 150px;
+		}
+
+		/* Make the columns the same height as each other */
+		#container {
+			overflow: hidden;
+		}
+
+		#container .column {
+			padding-bottom: 1001em;
+			margin-bottom: -1000em;
+		}
+
+		/* Fix for the footer */
+		* html body {
+			overflow: hidden;
+		}
+		
+		* html #footer-wrapper {
+			float: left;
+			position: relative;
+			width: 100%;
+			padding-bottom: 10010px;
+			margin-bottom: -10000px;
+			background: #fff;
+		}
+
+		/* Aesthetics */
+		body {
+			margin: 0;
+			padding: 0;
+			font-family:Sans-serif;
+			line-height: 1.5em;
+		}
+		
+		p {
+			color:yellow;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul a {
+			color: black;;
+			text-decoration: none;
+		}
+
+		#header, #footer {
+			font-size:left-sidelarge;
+			padding: 0.3em;
+			color:#FFFF00; 
+			background:black;
+		}
+
+		#left {
+			
+			background-image:linear-gradient(to right,crimson,violet)
+		}
+		
+		#right {
+		background-image:linear-gradient(to right,crimson,violet)
+		}
+
+		#center {
+			background: #fff;
+		}
+
+		#container .column {
+			padding-top: 1em;
+		}
+		
+	</style>
+	
+	<script type="text/javascript">
+		/* =============================
+		This script generates sample text for the body content. 
+		You can remove this script and any reference to it. 
+		 ============================= */
+		var bodyText=["The smaller your reality, the more convinced you are that you know everything.", "If the facts don't fit the theory, change the facts.", "The past has no power over the present moment.", "This, too, will pass.", "</p><p>You will not be punished for your anger, you will be punished by your anger.", "Peace comes from within. Do not seek it without.", "<h3>Heading</h3><p>The most important moment of your life is now. The most important person in your life is the one you are with now, and the most important activity in your life is the one you are involved with now."]
+		function generateText(sentenceCount){
+			for (var i=0; i<sentenceCount; i++)
+			document.write(bodyText[Math.floor(Math.random()*7)]+" ")
+		}
+	</script>	
+</head>
+
+<body>
+
+	<header id="header"><p>Meet & Greet</p></header>
+
+	<div id="container">
+
+		<main id="center" class="column">
+			<article>
+			
+				<h1>Search Your Favourite Technology</h1>
+				<p><script></script></p>
+				<p style="color:#FFFF00; background:black">Bonjour!</p>
+			    <p style="color:black">We all know about there are alot of technologies
+                 in differet different languages.So,Basically here we are with some of your favourite trendy technologies like AI, Machine Learning and Data Science etc. 	
+			 some references are here in the left column about the trendy technologies. So please click on your favourite reference for better knowledge.</p>
+			</article>								
+		</main>
+
+		<nav id="left" class="column">
+			
+			<h3>List Of Technology</h3>
+			<ul>
+				<li><a href="https://www.edx.org/learn/artificial-intelligence">1.AI</a></li>
+				<li><a href="https://www.geeksforgeeks.org/machine-learning/">2.ML</a></li>
+				<li><a href="https://www.geeksforgeeks.org/introduction-data-science-skills-required/">3.Data Science</a></li>
+				<li><a href="https://www.geeksforgeeks.org/android-app-development-fundamentals-for-beginners/"></a>4.Android</li>
+				<li><a href="https://www.geeksforgeeks.org/introduction-to-natural-language-processing/">5.NLP</a></li>
+				<li><a href="https://www.geeksforgeeks.org/blockchain-technology-introduction/">6.BlockChain</a></li>
+				<li><a href="https://www.coursera.org/specializations/ui-ux-design">7.UI & UX</a></li>
+				<li><a href="https://www.geeksforgeeks.org/begin-web-development-with-a-head-start/">8.Wev Developement</a></li>
+				<li><a href="https://www.javacodegeeks.com/devops-tutorials">9.Devops</a></li>
+			</ul>
+
+		</nav>
+
+		<div id="right" class="column">
+			<h3></h3>
+			<p>Hello Learners,For more options please find us on social media. We will provide you a better option.</p>
+		</div>
+
+	</div>
+
+	<div id="footer-wrapper">
+		
+		<footer id="footer" >
+  <p>FIND US ON SOCIAL MEDIA</p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <i class="social-icon fa fa-facebook-square"aria-hidden></i>
+    <i class="social-icon fa fa-instagram" aria-hidden="true"></i>
+	<i class="social-icon fa fa-twitter" aria-hidden="true"></i>
+    <i class="social-icon fa fa-linkedin" aria-hidden="true"></i>
+		<p>© Copyright 2020 Meet & Greet.</p>
+  </footer>
+	</div>
+
+</body>
+
+</html>
